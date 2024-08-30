@@ -1,297 +1,359 @@
 <html>
 <head>
-  <title>News</title>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/newspaper.css">
+    <title>Newspaper Style Design Experiment</title>
+    <meta name="viewport" content="width=device-width">
 
-  <!-- 引用 CSS 文件 -->
-  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-  <!--recreating  a newspaper  front page with Grid and Bob Ross  ipsum-->
-  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" />
-  <div class="wrapper">
-    <header>
-      <!--photo by Markus Spiske--><img
-        src="https://llandscapes-ee1.kxcdn.com/wp-content/uploads/2015/09/7.jpg"
-        alt=""
-        width="200"
-      />
-      <h1 class="header__h">CSS Grid Times</h1>
-      <!--photo by Lola Elise--><img
-        src="https://cdn.photographylife.com/wp-content/uploads/2013/06/20100813-Cooking-2862-960x638.jpg"
-        alt=""
-        width="200"
-      />
-    </header>
-    <div class="issueInfo">
-      <p>Vol. CCLXIX No. 28</p>
-      <p class="edition">WEEKEND</p>
-      <p>⭐️ ⭐️ ⭐️&nbsp;&nbsp;&nbsp;&nbsp;$4.00</p>
+<div class="head">
+    <div class="headerobjectswrapper">
+        <div class="weatherforcastbox"><span style="font-style: italic;">Weatherforcast for the next 24 hours: Plenty of Sunshine</span><br><span>Wind: 7km/h SSE; Ther: 21°C; Hum: 82%</span></div>
+        <header>MEI Daily</header>
     </div>
-    <aside>
-      <h2 class="h--promoHeading">In this issue</h2>
-      <ul class="aside__ul">
-        <li class="li__initial">
-          <strong>Layout abounds,</strong> Remember how free clouds are. They
-          just lay around in the sky all day long.
-        </li>
-        <li>
-          <strong>Combine Grid and Flexbox</strong> There comes a nice little
-          fluffer. Take your time.
-        </li>
-        <li>
-          <strong>All the things</strong> Speed will come later. Nothing wrong
-          with washing your brush.
-        </li>
-        <li>
-          <strong>Variables, and more.</strong> Let's make some happy little
-          clouds in our world.
-        </li>
-        <li>
-          <strong>Shapes!</strong> You can't have light without dark. You can't
-          know happiness unless you've known sorrow.
-        </li>
-        <li>
-          <strong>Initial Letter.</strong> Isn't that fantastic? You can just
-          push a little tree out of your brush like that.
-        </li>
-        <li>
-          <strong>What can't we do?</strong> I really believe that if you
-          practice enough you could paint the 'Mona Lisa' with a two-inch brush.
-        </li>
-        <li>
-          <strong>Make lots of stuff.</strong> You could sit here for weeks with
-          your one hair brush trying to do that - or you could do it with one
-          stroke with an almighty brush.
-        </li>
-        <li>
-          <strong>What else?</strong> We don't have to be concerned about it. We
-          just have to let it fall where it will.
-        </li>
-        <li>
-          <strong>I'm done.</strong> But when I get home, the only thing I have
-          power over is the garbage.
-        </li>
-        <li>
-          <strong>Layout abounds,</strong> Remember how free clouds are. They
-          just lay around in the sky all day long.
-        </li>
-        <li>
-          <strong>Combine Grid and Flexbox</strong> There comes a nice little
-          fluffer. Take your time.
-        </li>
-        <li>
-          <strong>All the things</strong> Speed will come later. Nothing wrong
-          with washing your brush.
-        </li>
-        <li>
-          <strong>Variables, and more.</strong> Let's make some happy little
-          clouds in our world.
-        </li>
-        <li>
-          <strong>Shapes!</strong> You can't have light without dark. You can't
-          know happiness unless you've known sorrow.
-        </li>
-        <li>
-          <strong>Initial Letter.</strong> Isn't that fantastic? You can just
-          push a little tree out of your brush like that.
-        </li>
-        <li>
-          <strong>What can't we do?</strong> I really believe that if you
-          practice enough you could paint the 'Mona Lisa' with a two-inch brush.
-        </li>
-        <li>
-          <strong>Make lots of stuff.</strong> You could sit here for weeks with
-          your one hair brush trying to do that - or you could do it with one
-          stroke with an almighty brush.
-        </li>
-        <li>
-          <strong>I'm done.</strong> But when I get home, the only thing I have
-          power over is the garbage.
-        </li>
-      </ul>
-    </aside>
-    <div class="main">
-      <section class="main__subSection--focus">
-        <div class="main__subSection--callout">
-          <h2 class="main__h--boldSans">
-            It's hard to find a good looking chart
-          </h2>
-          <p class="main__p--subtext">
-            Fluff it up a little and hypnotize it. We don't have to be concerned
-            about it. We just have to let it fall where it will. These little
-            son of a guns hide in your brush and you just have to push them out.
-            Let all these little things happen. Don't fight them. Learn to use
-            them.
-          </p>
-          <img
-            src="https://www.wellsfargoadvisors.com/images/mvp/our-insights/real-assets/globalrealassets1_020217.gif"
-            alt=""
-          />
-        </div>
-        <h2 class="main__h--subHeading">
-          Please Read Read the Wise Words of Bob Ross and Relax
-        </h2>
-        <p class="byline">By Robert Ross</p>
-        <p>
-          Fluff it up a little and hypnotize it. We must be quiet, soft and
-          gentle. Isn't that fantastic that you can create an almighty tree that
-          fast? You better get your coat out, this is going to be a cold
-          painting. There's not a thing in the world wrong with washing your
-          brush.
-        </p>
 
-        <p>
-          The more we do this - the more it will do good things to our heart. We
-          can always carry this a step further. There's really no end to this.
-          Work that paint. I'm sort of a softy, I couldn't shoot Bambi except
-          with a camera. Only eight colors that you need. If you hypnotize it,
-          it will go away.
-        </p>
+    <div class="subhead"> MEI集团编辑- Saturday 31, 2024 - MEI日报</div>
+</div>
+<div class="content">
+    <div class="collumns">
+        <div class="collumn">
+            <div class="head"><span class="headline hl3">MEI花店成功开业</span><p><span class="headline hl4">花卉市场迎来新星，开业盛况空前</span></p></div>
+            【本报讯】 MEI花店在今日盛大开业，成为了当地花卉市场的一颗新星。开业典礼上，店内外布置华丽，色彩斑斓的鲜花与精美的装饰相映成趣。店内特别推出了“开业限定花束”，深受顾客青睐，现场人潮涌动，气氛热烈。除了常规的花卉产品外，MEI花店还引入了创新的花艺设计，并设立了专门的顾客咨询服务台，致力于为顾客提供个性化的花艺解决方案。此次开业标志着MEI集团在花卉行业迈出了坚实的一步，为未来在花卉市场的扩张奠定了坚实的基础。</p></div>
+        <div class="collumn">
+            <div class="head"><span class="headline hl5">集团董事长生日</span><p><span class="headline hl4">全体员工送上最真挚的祝福，庆祝领导者的重要时刻</span></p></div>
+            【特别报道】 今天是MEI集团董事长小美的生日，我们在此向她致以最诚挚的祝福。作为公司领导者，小美以她卓越的领导才能和远见卓识，带领MEI集团取得了辉煌的成就。公司全体员工和合作伙伴纷纷在生日当天送上了真挚的祝福，举办了特别的庆祝活动。来自各地的祝贺信息和礼物不断送达，员工们还特别准备了生日蛋糕和精美的礼品，以表达对她的感激和敬意。在这个特殊的日子里，我们希望她的每一天都充满欢乐与成功，同时也期待她在未来的岁月中继续引领MEI集团不断迈向新的高峰。</p>
+            <figure class="figure">
+              <div class="img">
+                <img src="1.jpg" alt="Example Image">
+            </div>
+                <!-- <img class="media" src="1.jpg" alt=""> -->
+                <figcaption class="figcaption">MEI集团董事长</figcaption>
+            </figure>
 
-        <p>
-          If you do too much it's going to lose its effectiveness. Get away from
-          those little Christmas tree things we used to make in school. Here's
-          something that's fun. Once you learn the technique, ohhh! Turn you
-          loose on the world; you become a tiger. There we go. That's a son of a
-          gun of a cloud.
-        </p>
+            <p>It was this, as much as anything, that gave people courage, and I suppose the new arrivals from Woking also helped to restore confidence.  At any rate, as the dusk came on a slow, intermittent movement upon the sand pits began, a movement that seemed to gather force as the stillness of the evening about the cylinder remained unbroken.  Vertical black figures in twos and threes would advance, stop, watch, and advance again, spreading out as they did so in a thin irregular crescent that promised to enclose the pit in its attenuated horns.  I, too, on my side began to move towards the pit.</p>
 
-        <p>
-          Let all these things just sort of happen. Those great big fluffy
-          clouds. Just think about these things in your mind and drop em' on
-          canvas. Let's make some happy little clouds in our world.
-        </p>
+            <p>Then I saw some cabmen and others had walked boldly into the sand pits, and heard the clatter of hoofs and the gride of wheels.  I saw a lad trundling off the barrow of apples.  And then, within thirty yards of the pit, advancing from the direction of Horsell, I noted a little black knot of men, the foremost of whom was waving a white flag.</p>
 
-        <p>
-          No worries. No cares. Just float and wait for the wind to blow you
-          around. Let your heart take you to wherever you want to be. Trees live
-          in your fan brush, but you have to scare them out.
-        </p>
-
-        <p>
-          Just pretend you are a whisper floating across a mountain. You gotta
-          think like a tree. You can't have light without dark. You can't know
-          happiness unless you've known sorrow. I want everbody to be happy.
-          That's what it's all about.
-        </p>
-
-        <p>
-          You have freedom here. The only guide is your heart. Let's build some
-          happy little clouds up here. We start with a vision in our heart, and
-          we put it on canvas. Painting should do one thing. It should put
-          happiness in your heart. Use absolutely no pressure. Just like an
-          angel's wing. Let that brush dance around there and play.
-        </p>
-
-        <p>
-          We have all at one time or another mixed some mud. Let's have a little
-          bit of fun today. If you don't think every day is a good day - try
-          missing a few. You'll see. A big strong tree needs big strong roots.
-        </p>
-
-        <p>
-          Let all these little things happen. Don't fight them. Learn to use
-          them. Maybe there's a happy little Evergreen that lives here. We'll
-          have a super time. Isn't that fantastic?
-        </p>
-
-        <p>
-          That's what painting is all about. It should make you feel good when
-          you paint. This is probably the greatest thing to happen in my life -
-          to be able to share this with you. Life is too short to be alone, too
-          precious. Share it with a friend. We'll put some happy little leaves
-          here and there. The first step to doing anything is to believe you can
-          do it. See it finished in your mind before you ever start.
-        </p>
-      </section>
-      <section class="main__subSection--aside">
-        <h3 class="h--promoHeading">Read This Part Too</h3>
-        <p class="byline">By Steve Stevenson</p>
-        <p>
-          And just raise cain. I'm sort of a softy, I couldn't shoot Bambi
-          except with a camera. We have all at one time or another mixed some
-          mud. Anyone can paint.
-        </p>
-
-        <p>
-          Sometimes you learn more from your mistakes than you do from your
-          masterpieces. This is your creation - and it's just as unique and
-          special as you are. You don't have to be crazy to do this but it does
-          help. I guess I'm a little weird. I like to talk to trees and animals.
-          That's okay though; I have more fun than most people. We don't have
-          anything but happy trees here. This is probably the greatest thing to
-          happen in my life - to be able to share this with you.
-        </p>
-
-        <p>
-          We must be quiet, soft and gentle. You want your tree to have some
-          character. Make it special. The little tiny Tim easels will let you
-          down.
-        </p>
-
-        <p>
-          If there's two big trees invariably sooner or later there's gonna be a
-          little tree. What the devil. This is an example of what you can do
-          with just a few things, a little imagination and a happy dream in your
-          heart. I'm gonna start with a little Alizarin crimson and a touch of
-          Prussian blue You can create beautiful things - but you have to see
-          them in your mind first.
-        </p>
-
-        <p>
-          I can't think of anything more rewarding than being able to express
-          yourself to others through painting. We don't have to be committed. We
-          are just playing here. We're not trying to teach you a thing to copy.
-          We're just here to teach you a technique, then let you loose into the
-          world. Let's have a nice tree right here.
-        </p>
-      </section>
-      <section class="main__subSection--complimentary">
-        <h3 class="h--promoHeading">READ THIS PART TOO</h3>
-        <p class="byline">By Bob Ross <br />And Robert Ross</p>
-        <p>
-          Nice little clouds playing around in the sky. We don't have to be
-          concerned about it. We just have to let it fall where it will. Let's
-          make some happy little clouds in our world. Everyone is going to see
-          things differently - and that's the way it should be. Go out on a limb
-          - that's where the fruit is.
-        </p>
-
-        <p>
-          As trees get older they lose their chlorophyll. Even the worst thing
-          we can do here is good. Here we're limited by the time we have. I'm
-          gonna start with a little Alizarin crimson and a touch of Prussian
-          blue We'll do another happy little painting.
-        </p>
-
-        <p>
-          These trees are so much fun. I get started on them and I have a hard
-          time stopping. Put your feelings into it, your heart, it's your world.
-          This is truly an almighty mountain.
-        </p>
-
-        <p>
-          We're not trying to teach you a thing to copy. We're just here to
-          teach you a technique, then let you loose into the world. Now, we're
-          going to fluff this cloud. This is your creation - and it's just as
-          unique and special as you are. That's crazy. Get away from those
-          little Christmas tree things we used to make in school.
-        </p>
-
-        <!-- <p>Let your heart take you to wherever you want to be. Anyone can paint. Life is too short to be alone, too precious. Share it with a friend. We don't want to set these clouds on fire. Let's make some happy little clouds in our world. Trees live in your fan brush, but you have to scare them out.</p>
-  
-  <p>And I will hypnotize that just a little bit. Decide where your cloud lives. Maybe he lives right in here. Everything's not great in life, but we can still find beauty in it.</p> -->
-      </section>
-      <section class="main__subSection--imgPromo">
-        <h3 class="main__h--boldSans">This Photo is Crazy, Right?</h3>
-        <img
-          src="http://cdn.velonews.com/wp-content/uploads/2017/02/2016-Tour-of-Qatar-800x534.jpg"
-          alt=""
-          width="575"
-        />
-      </section>
+            </div>
+        <div class="collumn"><div class="head"><span class="headline hl1">MEI集团董事长小美拍摄时尚大片</span><p><span class="headline hl4">独特风格与自信魅力尽显，引领时尚潮流</span></p></div>Partially, but it also obeys your commands. Hey, Luke! May the Force be with you. I have traced the Rebel spies to her. Now she is my only link to finding their secret base.</p>
+            <figure class="figure">
+                <img class="media" src="http://i.giphy.com/4fDWVPMoSyhgc.gif" alt="">
+                <figcaption class="figcaption">"This time, let go your conscious self and act on instinct."</figcaption>
+            </figure>
+            <p>Leave that to me. Send a distress signal, and inform the Senate that all on board were killed. <span class="citation">"Don't under&shy;estimate the Force. I suggest you try it again, Luke."</span> This time, let go your conscious self and act on instinct. In my experience, there is no such thing as luck. You're all clear, kid. Let's blow this thing and go home!</p>
+            <p>You don't believe in the Force, do you? Partially, but it also obeys your commands. The plans you refer to will soon be back in our hands. As you wish.</p></div>
+        <div class="collumn"><div class="head"><span class="headline hl3">MEI集团董事长小美收购日本几家企业 </span><p><span class="headline hl4">国际市场拓展再获新进展，业务布局不断扩展</span></p></div><p>【商业资讯】 在小美的领导下，MEI集团近期成功收购了几家在日本具有重要影响力的企业。这一战略举措不仅显著增强了MEI集团在亚洲市场的竞争力，也进一步扩大了其全球业务的版图。收购的企业涵盖了从高科技创新到传统零售的多个领域，其中包括一家领先的电子技术公司和几家知名的零售连锁店。此次收购不仅将丰富MEI集团的产品和服务线，还将为其带来更多的市场机会和合作伙伴。这一发展标志着MEI集团在全球业务拓展上的新进展，预计将对公司未来的发展产生深远的影响。</p></div>
+        <div class="collumn"><div class="head"><span class="headline hl1">MEI集团商业版图的规划蓝图 </span><p><span class="headline hl4"> 全球战略布局清晰可见，未来发展目标明确</span></p></div><p>【企业动向】 MEI集团近日公布了其未来几年的商业规划蓝图，详细展示了公司在全球范围内的战略布局。根据规划，MEI集团将继续深化在现有市场的业务，同时积极开拓新的市场机会。特别是在科技创新、绿色可持续发展和全球业务整合方面，公司计划投入大量资源，推动业务的多元化和国际化。蓝图中还详细阐述了未来的关键目标和发展方向，包括提升研发能力、加强品牌影响力和优化全球供应链。此规划蓝图不仅为MEI集团的未来发展提供了清晰的方向，也为投资者和合作伙伴展示了公司的长远发展潜力。</p>
+          
+          <p>His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me?" he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. </p></div>
     </div>
-  </div>
+</div>
+
 </body>
 </html>
+<style>
+  body{
+    font-family: 'Droid Serif', serif;
+    font-size: 14px;
+    color: #2f2f2f;
+    background-color: #f9f7f1;
+}
+header{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 72px;
+    margin-bottom: 20px;
+
+}
+p{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.head{
+    text-align: center;
+    position: relative;
+
+
+}
+
+/* .img {
+	width: 100%;
+	filter: grayscale(95%);
+	margin-bottom: 0.5rem;
+	border: 1px solid var(--black);
+	transition: 0.3s ease;
+  &:hover img {
+		filter: grayscale(0);
+	}
+} */
+
+.img img {
+	width: 100%;
+	filter: grayscale(95%);
+	margin-bottom: 0.5rem;
+	border: 1px solid var(--black);
+	transition: 0.3s ease;
+}
+
+/* 鼠标悬停时恢复图像颜色 */
+.img:hover img {
+	filter: grayscale(0);
+}
+.headerobjectswrapper{
+}
+
+.subhead{
+    text-transform: uppercase;
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    padding: 12px 0 12px 0;
+
+}
+.weatherforcastbox{
+    position: relative;
+    width: 12%;
+    left: 10px;
+    border: 3px double #2f2f2f;
+    padding: 10px 15px 10px 15px;
+    line-height: 20px;
+    display: inline-block;
+    margin: 0 50px 20px -360px;
+}
+.content{
+    font-size: 0;
+    line-height: 0;
+    word-spacing: -.31em;
+    display: inline-block;
+    margin: 30px 2% 0 2%;
+
+
+}
+.collumns{
+
+}
+
+.collumn{
+    font-size: 14px;
+    line-height: 20px;
+    width: 17.5%;
+    display: inline-block;
+    padding: 0 1% 0 1%;
+    vertical-align: top;
+    margin-bottom: 50px;
+    transition: all .7s;
+}
+.collumn + .collumn { 
+  border-left: 1px solid #2f2f2f;
+}
+.collumn .headline{
+    text-align: center;
+    line-height: normal;
+    font-family: 'Playfair Display', serif;
+    display: block;
+    margin: 0 auto;
+
+
+}
+.collumn .headline.hl1{
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px 0 10px 0;
+
+}
+
+.collumn .headline.hl2{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+
+.collumn .headline.hl2:before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl2:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 13px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.collumn .headline.hl3{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl4{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl4:before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl4:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.collumn .headline.hl5{
+    font-weight: 400;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-style: italic;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl6{
+    font-weight: 400;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl6:before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl6:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+
+}
+.collumn .headline.hl7{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl8{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl9{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl10{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .citation{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 44px;
+    /*font-style: italic;*/
+    text-align: center;
+    font-weight: 400;
+    display: block;
+    margin: 40px 0 40px 0;
+    font-feature-settings: "liga", "dlig";
+
+}
+.collumn .citation:before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .citation:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .figure {
+    margin: 0 0 20px;
+}
+.collumn .figcaption{
+  font-style: italic;
+  font-size: 12px;
+}
+.media {
+    -webkit-filter: sepia(80%) contrast(1) opacity(0.8);
+    filter: sepia(80%) grayscale(1) contrast(1) opacity(0.8);
+    mix-blend-mode: multiply;
+    width: 100%;
+}
+/*________________________________________________________________________________________________________________________________*/
+/*MEDIAQUERIES*/
+@media only all and (max-width: 1300px) {
+    .weatherforcastbox{
+        display: none;
+    }
+
+}
+@media only all and (max-width: 1200px) {
+    .collumn{
+        width: 31%;
+    }
+
+}
+    @media only all and (max-width: 900px) {
+    .collumn{
+        width: 47%;
+    }
+
+}
+@media only all and (max-width: 600px) {
+    .collumn{
+        width: 100%;
+    }
+  .collumn + .collumn {
+        border-left: none;
+        border-bottom: 1px solid #2f2f2f;
+  }
+    header{
+        max-width: 320px;
+        font-size: 60px;
+        line-height: 54px;
+        overflow: hidden;
+    }
+
+}
+</style>
